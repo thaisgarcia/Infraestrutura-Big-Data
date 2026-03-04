@@ -15,4 +15,4 @@ Após o boot pela imagem ISO (`ubuntu-22.04.5-desktop-amd64.iso`), realizei todo
 ## 3. Atualização do Sistema
 Com a máquina virtual operacional e o login efetuado com sucesso, a primeira boa prática executada foi rodar o atualizador de programas do Ubuntu. Isso garante que todos os pacotes do sistema estejam nas versões mais recentes e seguras antes de começarmos a instalar outras ferramentas.
 
-![Sistema Ubuntu baixando e instalando atualizações](imagens/print2.ppg)
+![Sistema Ubuntu baixando e instalando atualizações](imagens/print2.png)
