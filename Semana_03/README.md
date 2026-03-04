@@ -6,17 +6,20 @@ Nesta terceira semana de atividades, o objetivo foi simular operações fundamen
 
 ### 1. Estruturação do Data Lake e Processamento (MapReduce Simulado)
 Primeiro, criamos a infraestrutura básica de diretórios (`raw`, `processed`, `logs`) para simular as camadas de um Data Lake. Em seguida, utilizamos comandos do Linux para simular a ingestão de um arquivo CSV e seu processamento.
+
 ![Processamento de arquivos no terminal](imagens/print1.png)
 > **Comandos executados:** Criação de diretórios com `mkdir -p`, inserção de dados fictícios com `echo`, e processamento em pipeline utilizando `cat`, `grep` (filtragem), `wc -l` (contagem) e `sort | uniq` (ordenação e remoção de duplicatas).
 
 ### 2. Monitoramento de Processos e Teste de Carga (Stress Test)
 Para entender como processos impactam os recursos da máquina, utilizamos ferramentas de monitoramento e simulamos um gargalo de processamento.
+
 ![Monitoramento com o comando top](imagens/print2.png)
 ![Teste de carga no terminal](imagens/print3.png)
 > **Comandos executados:** O comando `top` foi usado para visualizar os processos em tempo real. Depois, rodamos o comando `yes > /dev/null &` em segundo plano para forçar o uso da CPU, seguido pelo comando `kill` usando o PID (1947) para encerrar o processo.
 
 ### 3. Criação de Cluster com Docker (Master e Worker)
 Para simular um ambiente distribuído (como o Hadoop ou Spark), criamos uma rede interna e instanciamos dois containers Docker separados: um atuando como nó mestre e o outro como trabalhador.
+
 ![Criação da rede e dos containers Docker](imagens/print4.png)
 ![Instalação do ping no container master](imagens/print5.1.png)
 ![Teste de conectividade entre os nós](imagens/print6.png)
@@ -24,6 +27,7 @@ Para simular um ambiente distribuído (como o Hadoop ou Spark), criamos uma rede
 
 ### 4. Automação com Shell Script
 Para não precisarmos repetir comandos de criação de estrutura manualmente, consolidamos as instruções em um script executável.
+
 ![Edição e execução do Shell Script](imagens/print8.png)
 ![Execução final do cluster](imagens/print9.png)
 > **Comandos executados:** Utilizamos o editor `nano init_cluster.sh` para escrever o script, aplicamos a permissão de execução com `chmod +x` e rodamos o arquivo com `./init_cluster.sh`.
