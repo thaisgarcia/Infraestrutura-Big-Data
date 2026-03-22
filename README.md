@@ -11,12 +11,16 @@ Abaixo estão os links rápidos para o relatório detalhado de cada semana, incl
 * **[Semana 1: Instalação e Configuração da Máquina Virtual](./Semana_01/)**
 * **[Semana 2: Terminal Linux no GitHub Codespaces](./Semana_02/)**
 * **[Semana 3: Google Cloud Shell](./Semana_03/)**
+* **[Semana 4: Hadoop HDFS - Cluster Pseudo-Distribuído](./Semana_04/)**
+* **[Semana 5: MapReduce - Programação Distribuída](./Semana_05/)**
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 Durante estas práticas, estamos utilizando:
 * Linux / Comandos de Terminal (Bash)
 * Google Cloud Shell
 * Máquinas Virtuais (VMs)
+* Hadoop HDFS
+* MapReduce
 
 ---
 Desenvolvido por **Thais** 👩‍💻
