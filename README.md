@@ -13,6 +13,7 @@ Abaixo estão os links rápidos para o relatório detalhado de cada semana, incl
 * **[Semana 3: Google Cloud Shell](./Semana_03/)**
 * **[Semana 4: Hadoop HDFS - Cluster Pseudo-Distribuído](./Semana_04/)**
 * **[Semana 5: MapReduce - Programação Distribuída](./Semana_05/)**
+* **[Semana 6: Hardware e Infraestrutura Física para Big Data](./Semana_06/)**
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 Durante estas práticas, estamos utilizando:
